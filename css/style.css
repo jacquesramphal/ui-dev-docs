@@ -1,0 +1,157 @@
+/* ---- GLOBAL ---- */
+
+* {
+}
+html,
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  color: #24292e;
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: auto;
+  width: auto;
+  padding: 2rem 3rem 2rem 3rem;
+}
+.subtle {
+  opacity: 0.3;
+}
+hr {
+  border: 0.5px solid #e3e3e3;
+}
+/*IMAGES*/
+img {
+  border-radius: 0.5rem;
+}
+.logo {
+  width: 5rem;
+}
+.feature {
+  width: 50vw;
+}
+.hero {
+  width: 80vw;
+}
+
+/*BUTTONS*/
+
+button {
+  font-size: inherit;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  display: inline-block;
+  margin: 0 1rem 0 0;
+  -webkit-transition: box-shadow 0.15s ease-in-out;
+  transition: box-shadow 0.15s ease-in-out;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+.btn-md {
+  padding: 1rem 2rem 1rem 2rem;
+}
+.btn-lg {
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+}
+.btn-primary {
+  background-color: blue;
+  color: #fff;
+}
+.btn-secondary {
+  background-color: lightgrey;
+  color: #24292e;
+}
+.btn-outline {
+  background-color: transparent;
+  color: blue;
+  border: 1px solid blue;
+}
+button:first-child {
+  margin: 0 0 0 0;
+}
+
+button:active {
+}
+button:hover {
+  box-shadow: 0 2px 8px #999;
+}
+button:active {
+  opacity: 0.8;
+  box-shadow: 0 2px 8px #999;
+}
+
+/*FORM INPUT*/
+label {
+}
+input,
+textarea,
+select {
+  font-size: inherit;
+  width: 100%;
+  max-width: 420px;
+  top: 0 !important;
+  padding: 1rem;
+  margin: 0.5rem 0 1rem 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #f1f1f1;
+}
+textarea {
+  resize: vertical;
+}
+input:focus,
+textarea:focus {
+  background-color: #ffffff;
+}
+/* SELECTORS */
+option:first {
+  color: #999 !important;
+}
+
+/* CUSTOM RADIOS */
+input[type="radio"],
+[type="checkbox"] {
+  width: 1rem;
+  cursor: pointer;
+}
+.form-radio {
+}
+.form-radio:checked::before {
+}
+.form-radio:hover {
+}
+.form-radio:checked {
+}
+
+/*TOOLTIPS*/
+[data-tooltip]:hover:after {
+  opacity: 1;
+  transition: all 0.1s ease 0.5s;
+  visibility: visible;
+}
+[data-tooltip]:after {
+  content: attr(data-tooltip);
+  background-color: #24292e;
+  font-size: inherit;
+  color: #fff;
+  position: absolute;
+  padding: 1rem 2rem 1rem 2rem;
+  white-space: nowrap;
+  box-shadow: 1px 1px 10px #d6d6d6;
+  opacity: 0;
+  z-index: 99999;
+  visibility: hidden;
+  border-radius: 4px;
+}
+[data-tooltip] {
+  position: relative;
+}
