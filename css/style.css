@@ -54,6 +54,7 @@ button {
   -webkit-transition: box-shadow 0.15s ease-in-out;
   transition: box-shadow 0.15s ease-in-out;
   padding: 0.5rem 1rem 0.5rem 1rem;
+  cursor: pointer;
 }
 .btn-md {
   padding: 1rem 2rem 1rem 2rem;
@@ -86,6 +87,22 @@ button:hover {
 button:active {
   opacity: 0.8;
   box-shadow: 0 2px 8px #999;
+}
+
+/*Targeting Attributes*/
+[href="index.html"] {
+  color: red !important;
+}
+
+/*HYPERLINKS*/
+button > a {
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+a:visited {
+  color: blue;
 }
 
 /*FORM INPUT*/

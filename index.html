@@ -99,7 +99,7 @@
 
     <!-- Inputs -->
 
-    <div id="fields" class="container">
+    <div id="inputs" class="container">
       <h3 class="subtle">Common Input Types</h3>
       <form action="">
         <input type="text" name="fname" placeholder="Enter Name" /><br />
@@ -120,7 +120,7 @@
 
     <hr />
 
-    <div id="fields" class="container">
+    <div id="exampleform" class="container">
       <h3 class="subtle">Simple Form, Labels, Validation</h3>
       <form action="http://ramphal.design" method="post">
         <label for="uname">Username:</label><br />
@@ -180,11 +180,11 @@
 
       <h4>Checkboxes</h4>
       <form action="">
-        <input id="checkbox1" type="checkbox" />
+        <input name="checkbox" id="checkbox1" type="checkbox" />
         <label for="checkbox1">Checkbox</label><br />
-        <input id="checkbox2" type="checkbox" />
+        <input name="checkbox" id="checkbox2" type="checkbox" />
         <label for="checkbox2">Checkbox</label><br />
-        <input id="checkbox3" type="checkbox" />
+        <input name="checkbox" id="checkbox3" type="checkbox" />
         <label for="checkbox3">Checkbox</label><br />
         <button class="btn-primary">Submit</button>
       </form>
@@ -201,6 +201,9 @@
         Secondary Button</button
       ><button type="button" class="btn-outline">
         Outline Button
+      </button>
+      <button type="button" class="btn-outline">
+        <a href="index.html">Targeted Attribute</a>
       </button>
 
       <h4 class="">Medium Buttons</h4>
