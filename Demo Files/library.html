@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/tablestyle.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="_templates/flex-box/css/flexbox.css" />
+
     <title>Homepage</title>
   </head>
   <body>
@@ -51,6 +52,32 @@
     </div>
     <hr />
 
+    <!-- Colours & Layer Styles -->
+    <div id="headings" class="container flex-col">
+      <h3 class="subtle">Color, Gradient, Box-Shadow</h3>
+
+      <div class="flex-row">
+        <span class="swatch" style="background-color: var(--color-red)"
+          >Red</span
+        >
+        <span class="swatch" style="background-color: var(--color-green)"
+          >Green</span
+        >
+        <span class="swatch" style="background-color: var(--color-blue)"
+          >Blue</span
+        >
+        <span class="swatch" style="background-color: var(--color-dark)"
+          >Dark</span
+        >
+        <span class="swatch" style="background-color: var(--color-light)"
+          >Light</span
+        >
+        <span class="swatch" style="background-color: var(--color-xlight)"
+          >XLight</span
+        >
+      </div>
+    </div>
+    <hr style="margin-top: 2rem;" />
     <!-- Lists -->
     <div id="lists" class="container">
       <h3 class="subtle">Lists</h3>
@@ -97,13 +124,17 @@
 
     <hr />
 
-    <!-- Inputs -->
+    <!-- FORMS -->
 
     <div id="inputs" class="container">
       <h3 class="subtle">Common Input Types</h3>
       <form action="">
         <input type="text" name="fname" placeholder="Enter Name" /><br />
-        <input type="email" placeholder="Enter Email" /><br />
+        <input
+          type="email"
+          placeholder="Enter Email (Disabled)"
+          disabled
+        /><br />
         <input type="password" placeholder="Enter Password" /><br />
         <input type="date" placeholder="Select Date" /><br />
         <input type="color" /><br />
@@ -123,7 +154,7 @@
     <div id="exampleform" class="container">
       <h3 class="subtle">Simple Form, Labels, Validation</h3>
       <form action="http://ramphal.design" method="post">
-        <label for="uname">Username:</label><br />
+        <label for="uname">Username</label><br />
         <input
           id="uname"
           type="name"
@@ -131,7 +162,7 @@
           placeholder="Username"
           required
         /><br />
-        <label for="email">Email:</label><br />
+        <label for="email">Email</label><br />
         <input
           id="email"
           type="email"
@@ -139,7 +170,7 @@
           placeholder="Email"
           required
         /><br />
-        <label for="pword">Password:</label><br />
+        <label for="pword">Password</label><br />
         <input
           id="pword"
           type="password"
@@ -170,22 +201,22 @@
       <h4>Radio Buttons</h4>
       <form action="">
         <input name="radio" id="suv" type="radio" value="suv" />
-        <label for="radio1">SUV</label><br />
+        Radio Button<br />
         <input name="radio" id="truck" type="radio" value="truck" />
-        <label for="radio2">Truck</label><br />
+        Radio Button<br />
         <input name="radio" id="sedan" type="radio" value="sedan" />
-        <label for="radio3">Sedan</label><br />
+        Radio Button<br />
         <button class="btn-primary">Submit</button>
       </form>
 
       <h4>Checkboxes</h4>
       <form action="">
         <input name="checkbox" id="checkbox1" type="checkbox" />
-        <label for="checkbox1">Checkbox</label><br />
+        Checkbox<br />
         <input name="checkbox" id="checkbox2" type="checkbox" />
-        <label for="checkbox2">Checkbox</label><br />
+        Checkbox<br />
         <input name="checkbox" id="checkbox3" type="checkbox" />
-        <label for="checkbox3">Checkbox</label><br />
+        Checkbox<br />
         <button class="btn-primary">Submit</button>
       </form>
     </div>
@@ -288,13 +319,13 @@
             <td>Heading 3</td>
           </tr>
         </tbody>
-        <tfoot>
+        <!-- <tfoot>
           <tr>
             <th>Footer 1</th>
             <th>Footer 2</th>
             <th>Footer 3</th>
           </tr>
-        </tfoot>
+        </tfoot> -->
       </table>
 
       <!-- <h3 class="subtle">Simple colgroup</h3>
@@ -353,19 +384,11 @@
     </div>
     <hr />
 
-    <!-- Images -->
-    <!-- <div id="images" class="container">
-      <h3 class="subtle">Images</h3>
-      <img
-        id="first-img"
-        class="logo"
-        src="i/logo.svg"
-        alt="this is an image"
-      />
-      <img class="feature" src="i/img.svg" alt="this is an image" />
-      <img class="hero" src="i/img.svg" alt="this is an image" />
+    <!-- FLEXBOX -->
+    <div class="container">
+      <a href="index.html"><h3 class="subtle">Flexbox</h3></a>
     </div>
-    <hr /> -->
+    <hr />
 
     <!--HTML DOM-->
     <div id="DOM" class="container">
@@ -377,6 +400,23 @@
     <div id="divs-spans" class="container">
       <h3 class="subtle">DIVs & SPANs</h3>
     </div>
+    <hr />
+    <!-- Pseudo Classes -->
+    <div id="divs-spans" class="container">
+      <h3 class="subtle">Pseudo Classes</h3>
+      <ul>
+        <li>:root</li>
+        <li>:hover</li>
+        <li>:focus</li>
+        <li>:enabled</li>
+        <li>:disabled</li>
+        <li>:checked</li>
+        <li>:first-child</li>
+        <li>:nth-child</li>
+        <li>:last-child</li>
+      </ul>
+    </div>
+    <hr />
 
     <!--JAVASCRIPT-->
     <script>

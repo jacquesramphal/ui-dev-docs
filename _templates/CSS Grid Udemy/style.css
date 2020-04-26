@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(35, 65, 85);
+}
+
+h1 {
+  font-size: 4rem;
+  color: #333333;
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.9);
+}
+
+h2,
+span {
+  color: #ffffff;
+}
+
+nav ul a:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  background-color: rgb(94, 147, 182);
+  color: #0000;
+  padding: 0.2rem;
+
+  transition: 0.2sec ease-in-out;
+  border-radius: 5px;
+}
+.navbar a {
+  text-align: center;
+  font-weight: 700;
+}
+.navbar {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+  height: 100vh;
+}
+span {
+  text-align: center;
+}
+/* ------------------------ */
+.grid.item-1 {
+  background-color: gray;
+  border: dashed 3px black;
+}
+.grid.item-2 {
+  background-color: royalblue;
+  border: dashed 3px red;
+}
+.grid.item-3 {
+  background-color: red;
+  border: dashed 3px black;
+}
+.grid.item-4 {
+  background-color: greenyellow;
+  border: dashed 3px red;
+}
+.grid.item-5 {
+  background-color: orange;
+  border: dashed 3px red;
+}
+.grid.item-6 {
+  background-color: purple;
+  border: dashed 3px black;
+}
+.container {
+  max-width: 950px;
+  display: grid;
+}
+
+/* --------------------- */
+.container h2 {
+  font-size: 3rem;
+  color: #0f0f0f;
+}
+.container.grid-parent {
+  display: grid;
+  position: 50% auto;
+  color: #0f0f0f;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 250px 250px;
+  text-align: center;
+  border: solid 2px yellow;
+}
+
+/* ------------------- */
+
+/* Display Grid */
+
+/* Grid Item  */
+
+/* Grid Line */
+
+/* Grid Track */
+
+/* Grid Cell */
+
+/* Grid Area */
+
+/* --------------------- */
+
+/* Properties for the Parent
+(Grid Container) */
+
+/* Properties for the Children
+(Grid Items) */
+
+/* ---------------------- */

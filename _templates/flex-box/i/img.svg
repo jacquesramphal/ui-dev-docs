@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="804px" height="389px" viewBox="0 0 804 389" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>template</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.027413623" width="803.272317" height="388.778905"></rect>
+        <rect id="path-3" x="0.189976617" y="0.0998147445" width="119.655503" height="303.074945" rx="10.150649"></rect>
+        <rect id="path-5" x="0.189976617" y="0.0998147445" width="119.655503" height="303.074945" rx="10.150649"></rect>
+        <rect id="path-7" x="0.20708975" y="0.17025" width="119.655503" height="245.868026" rx="10.150649"></rect>
+        <rect id="path-9" x="0.20708975" y="0.17025" width="119.655503" height="245.868026" rx="10.150649"></rect>
+        <rect id="path-11" x="0.20708975" y="0.17025" width="119.655503" height="245.868026" rx="10.150649"></rect>
+        <rect id="path-13" x="0.20708975" y="0.17025" width="119.655503" height="245.868026" rx="10.150649"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="template" transform="translate(0.250000, 0.000000)">
+            <g id="Mask" transform="translate(0.000000, 0.108846)" fill="#F6D28D" fill-rule="nonzero">
+                <rect id="path-1" x="0" y="0.027413623" width="803.272317" height="388.778905"></rect>
+            </g>
+            <g id="Clipped" transform="translate(0.000000, 0.108846)">
+                <g id="Group-Clipped">
+                    <g>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="path-1"></g>
+                        <g id="Group" mask="url(#mask-2)">
+                            <g transform="translate(-29.750000, -0.250000)">
+                                <g>
+                                    <g id="template-copy">
+                                        <g transform="translate(0.008419, 0.194325)">
+                                            <g id="Group">
+                                                <g id="dod2">
+                                                    <rect id="Rectangle-path" fill="#D6D6D6" fill-rule="nonzero" x="29.741581" y="0.0830884077" width="803.272317" height="388.778905"></rect>
+                                                    <g id="Group-2" transform="translate(0.070780, 53.170250)">
+                                                        <rect id="path-5" fill="#202427" fill-rule="nonzero" x="0.189976617" y="0.0998147445" width="119.655503" height="303.074945" rx="10.150649"></rect>
+                                                        <g id="Oval-Clipped">
+                                                            <mask id="mask-4" fill="white">
+                                                                <use xlink:href="#path-3"></use>
+                                                            </mask>
+                                                            <g id="path-3"></g>
+                                                            <ellipse id="Oval" fill="#32383D" fill-rule="nonzero" mask="url(#mask-4)" cx="40.8029552" cy="18.8962586" rx="1.8629786" ry="2.29644391"></ellipse>
+                                                        </g>
+                                                        <g id="path-49-Clipped">
+                                                            <mask id="mask-6" fill="white">
+                                                                <use xlink:href="#path-5"></use>
+                                                            </mask>
+                                                            <g id="path-5"></g>
+                                                            <rect id="path-49" fill="#000000" fill-rule="nonzero" mask="url(#mask-6)" x="7.18997662" y="31.3498147" width="106.390412" height="232.894743" rx="1.15348283"></rect>
+                                                        </g>
+                                                    </g>
+                                                    <path d="M360.228435,53.4634615 L769.334952,53.4634615 C776.094447,53.4634615 781.5741,58.944244 781.5741,65.7037382 L781.5741,352.227945 L348.01687,352.227945 L347.98929,65.7037385 C347.98929,58.9442442 353.467812,53.4634615 360.227305,53.4634615 C360.227682,53.4634615 360.22806,53.4634615 360.228435,53.4634615 L360.228435,53.4634615 Z" id="path-41" fill="#202427" fill-rule="nonzero"></path>
+                                                    <path d="M325.48929,342.573685 C325.48929,341.546312 326.323522,340.713462 327.35495,340.713462 L801.928287,340.713462 C802.958662,340.713462 803.793945,341.546812 803.793945,342.573685 L803.793945,348.618997 C803.793945,352.985102 800.25576,356.524532 795.88585,356.524532 L333.397385,356.524532 C329.029865,356.524532 325.48929,352.986062 325.48929,348.618997 L325.48929,342.573685 Z" id="Rectangle-304" fill="#B6B6B6" fill-rule="nonzero"></path>
+                                                    <rect id="Rectangle-2" fill="#202427" fill-rule="nonzero" x="366.73929" y="73.2134615" width="90.505631" height="247.090012"></rect>
+                                                    <rect id="Rectangle-2-Copy" fill="#F3F3F3" fill-rule="nonzero" x="457.23929" y="131.213461" width="142.97594" height="189.130138"></rect>
+                                                    <rect id="Rectangle-2-Copy-3" fill="#000000" fill-rule="nonzero" x="457.23929" y="73.2134615" width="304.83561" height="57.9581385"></rect>
+                                                    <rect id="Rectangle-2-Copy-2" fill="#7B7B7B" fill-rule="nonzero" x="547.73929" y="131.213461" width="214.32998" height="189.130138"></rect>
+                                                    <rect id="path-3" fill="#202427" fill-rule="nonzero" x="168.20709" y="53.17025" width="119.655503" height="245.868026" rx="10.150649"></rect>
+                                                    <g id="Oval-Clipped" transform="translate(168.000000, 53.000000)">
+                                                        <mask id="mask-8" fill="white">
+                                                            <use xlink:href="#path-7"></use>
+                                                        </mask>
+                                                        <g id="path-7"></g>
+                                                        <circle id="Oval" fill="#32383D" fill-rule="nonzero" mask="url(#mask-8)" cx="40.8200685" cy="15.5332285" r="1.8629786"></circle>
+                                                    </g>
+                                                    <g id="Oval-Copy-Clipped" transform="translate(168.000000, 53.000000)">
+                                                        <mask id="mask-10" fill="white">
+                                                            <use xlink:href="#path-9"></use>
+                                                        </mask>
+                                                        <g id="path-9"></g>
+                                                        <circle id="Oval-Copy" fill="#32383D" fill-rule="nonzero" mask="url(#mask-10)" cx="60.0700685" cy="8.5332285" r="1.8629786"></circle>
+                                                    </g>
+                                                    <g id="path-49-Clipped" transform="translate(168.000000, 53.000000)">
+                                                        <mask id="mask-12" fill="white">
+                                                            <use xlink:href="#path-11"></use>
+                                                        </mask>
+                                                        <g id="path-11"></g>
+                                                        <rect id="path-49" fill="#000000" fill-rule="nonzero" mask="url(#mask-12)" x="7.20708975" y="25.67025" width="106.390412" height="188.934691" rx="1.15348283"></rect>
+                                                    </g>
+                                                    <g id="Rectangle-Clipped" transform="translate(168.000000, 53.000000)">
+                                                        <mask id="mask-14" fill="white">
+                                                            <use xlink:href="#path-13"></use>
+                                                        </mask>
+                                                        <g id="path-13"></g>
+                                                        <rect id="Rectangle" fill="#32383D" fill-rule="nonzero" mask="url(#mask-14)" x="50.7070897" y="13.67025" width="18.5565546" height="3.7259572" rx="0.76107371"></rect>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

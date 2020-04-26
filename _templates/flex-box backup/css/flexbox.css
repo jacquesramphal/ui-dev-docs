@@ -1,0 +1,83 @@
+@import "_config.html";
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: auto;
+  padding: 2rem 3rem 2rem 3rem;
+  max-width: 80vw;
+  margin: auto;
+}
+header,
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+header {
+  padding: 2rem 2rem 0rem 2rem;
+}
+footer {
+  padding: 0rem 2rem 2rem 2rem;
+}
+header .nav-links,
+footer .nav-links {
+  margin-left: 1rem;
+}
+span p {
+  margin: 0;
+}
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+.flex-end {
+  flex-grow: 0;
+  position: relative;
+  justify-content: flex-end;
+  padding-left: 1rem;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-card {
+  align-items: center;
+  border-radius: 0.25rem;
+  flex-grow: 1;
+  margin: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+.flex-card img {
+  display: block;
+  position: relative;
+  width: 100%;
+  flex-grow: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+.flex-card label {
+  color: var(--$color-primary);
+  margin: 1rem 0 0 1.25rem;
+  opacity: 0;
+  position: absolute;
+  -webkit-transition: opacity 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out;
+  z-index: 10000;
+}
+.flex-card:hover label {
+  opacity: 1;
+}

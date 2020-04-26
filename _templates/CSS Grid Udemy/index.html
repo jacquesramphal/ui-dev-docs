@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CSS Grid</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Properties for the Parent:</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#DisplayGrid">Display Grid</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#GridTemplateColumnsRows"
+              >Grid Template Columns &Rows</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#grid-template-areas"
+              >Grid Template Areas</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#grid-template">Grid Template</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#grid-gap">Grid Gap</a>
+          </li>
+          <!-- justify-items -->
+          <li class="nav-item">
+            <a class="nav-link" href="#justify-items">Justify Items</a>
+          </li>
+          <!-- align-items -->
+          <li class="nav-item">
+            <a class="nav-link" href="#align-items">Align Items</a>
+          </li>
+          <!-- justify-content -->
+          <li class="nav-item">
+            <a class="nav-link" href="#justify-content">Justify Content</a>
+          </li>
+          <!-- align-content -->
+          <li class="nav-item">
+            <a class="nav-link" href="#align-content">Align Content</a>
+          </li>
+          <!-- grid-auto-columns & rows-->
+          <li class="nav-item">
+            <a class="nav-link" href="#grid-auto-columns&rows"
+              >Grid Auto Columns & Rows</a
+            >
+          </li>
+          <!-- grid-auto-flow-->
+          <li class="nav-item">
+            <a class="nav-link" href="#grid-auto-flow">Grid Auto Flow</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- ---------------- -->
+    <section id="Gid">
+      <h1>CSS Grid</h1>
+
+      <div class="container grid-parent">
+        <div class="grid item-1"><h2 class="sub-item">Welcome</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">to</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">the</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">CSS</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">Grid</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">Layout</h2></div>
+      </div>
+      <span
+        ><ul>
+          <li><h2>Flex Layout - one dimension</h2></li>
+          <li><h2>Grid Layout - two dimensions</h2></li>
+        </ul>
+      </span>
+    </section>
+    <!-- -------------------- -->
+    <section id="DisplayGrid">
+      <h1>Display Grid</h1>
+      <div class="container display-grid-parent">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- --------------- -->
+
+    <!-- Grid Template Columns & Rows -->
+    <section id="GridTemplateColumnsRows">
+      <h1>Grid Template Columns & Rows</h1>
+      <div class="container grid-template-columns-rows">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- -------------------- -->
+
+    <!--Grid template areas  -->
+    <section id="grid-template-areas">
+      <h1>Grid template areas</h1>
+      <div class="container grid-template-areas">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- -------------------- -->
+
+    <!--Grid Template   -->
+    <section id="grid-template">
+      <h1>Grid Template</h1>
+      <div class="container grid-template">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- -------------------- -->
+
+    <!--Grid-Gap   -->
+    <section id="grid-gap">
+      <h1>Grid Gap</h1>
+      <div class="container grid-gap">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- ------------------ -->
+
+    <!--justify-items   -->
+    <section id="justify-items">
+      <h1>Justify Items</h1>
+      <div class="container justify-items">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- ------------------ -->
+
+    <!--align-items   -->
+    <section id="align-items">
+      <h1>Align Items</h1>
+      <div class="container align-items">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- ------------------ -->
+
+    <!--justify-content   -->
+    <section id="justify-content">
+      <h1>Justify Content</h1>
+      <div class="container justify-content">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- ------------------ -->
+
+    <!--align-content   -->
+    <section id="align-content">
+      <h1>Align Content</h1>
+      <div class="container align-content">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- ------------------ -->
+
+    <!--grid-auto-columns & rows   -->
+    <section id="grid-auto-columns&rows">
+      <h1>Grid Auto Columns & Rows</h1>
+      <div class="container grid-auto-columns&rows">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+    <!-- ------------------ -->
+
+    <!--grid-auto-flow   -->
+    <section id="grid-auto-flow">
+      <h1>Grid Auto Flow</h1>
+      <div class="container grid-auto-flow">
+        <div class="grid item-1"><h2 class="sub-item">item-1</h2></div>
+        <div class="grid item-2"><h2 class="sub-item">item-2</h2></div>
+        <div class="grid item-3"><h2 class="sub-item">item-3</h2></div>
+        <div class="grid item-4"><h2 class="sub-item">item-4</h2></div>
+        <div class="grid item-5"><h2 class="sub-item">item-5</h2></div>
+        <div class="grid item-6"><h2 class="sub-item">item-6</h2></div>
+      </div>
+    </section>
+
+    <!-- ------------------ -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
