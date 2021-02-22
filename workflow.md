@@ -60,7 +60,7 @@ Create a new file in your root folder of your fork and name it `.env`
 Check the root folder for a `package.json` file. This will include any notes and install details.
 
 
-## 3. Create a Fork from the main branch
+## 3. (DEPRECATED) Create a Fork from the main branch
 
 Most commonly, forks are used to either propose changes to someone else's project or to use someone else's project as a starting point for your own idea.
 
