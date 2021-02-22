@@ -8,6 +8,7 @@
 * [Squashing Commits with Git GUI (GitKraken example)](https://www.youtube.com/watch?v=cr1N8VTRmfM)
 
 ### GitHub
+* [Renaming MASTER to MAIN](https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/)
 * [GitHub Docs: Quickstart](https://docs.github.com/en/github/getting-started-with-github/quickstart)
 * [GitHub for Beginners](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
 * [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
