@@ -98,7 +98,7 @@ Check out that user's branch
 git checkout Sheril/ECX-XXX--branch
 ```
 
-### Upstream
+### (DEPRECATED - no longer required) Upstream
 
 Add a version of upstream to keep your fork updated:
 
