@@ -1,4 +1,47 @@
 # 🤦‍ Troubleshooting
+
+<details>
+  <summary><strong>How to undo your last commit and re-push</strong></summary>
+  
+1. Go to your branch
+
+`git checkout your-branch-name`
+
+2. Revert the commit this goes back to before your commit
+
+`git reset HEAD~1`
+
+#### Note
+
+    Use ~ most of the time — to go back a number of generations, usually what you want
+    Use ^ on merge commits — because they have two or more (immediate) parents
+
+    Tilde ~ is almost linear in appearance and wants to go backward in a straight line
+    Caret ^ suggests an interesting segment of a tree or a fork in the road
+
+
+3. Check changed/staged files (not yet committed)
+
+`git status`
+
+3b. you can either just commit the X number of files you want or undo the specifc file with
+
+`git checkout fileName.js`
+
+4. Once changes have been made/reverted, commit everything again
+
+`git add *`
+
+`git commit -m "XXX: Your New Commit Message"`
+
+5. Force push updates since you’re erasing commits from before
+
+`git push -f`
+
+6. Check `git log` or review commits on Github to confirm update
+
+</details>
+
 <details>
   <summary><strong>Renaming a local and remote branch</strong></summary>
 
@@ -29,16 +72,16 @@ https://linuxize.com/post/how-to-rename-local-and-remote-git-branch/
 </details>
 
 <details>
- <summary><strong>Multiple commits displayed on PR.</strong></summary>
+ <summary><strong>Multiple external commits displayed on PR.</strong></summary>
  
 If you've pushed to master and are seeing commit history on the comparison page, you need to reset and cherry-pick the commit you want to push.
 
 ### Reset to Upstream Development
-`git reset --hard upstream/development`
+`git reset --hard origin/development`
 
 > Running this command will revert all the work on the current branch. Make sure to back up your changes beforehand.
 
-### Cherry-pick desired commit
+### Cherry-pick desired commit (you must cherry-pick each commit separately when using terminal)
 `git cherry-pick (commit id from github)`
 
 ### Force push to GitHub
@@ -77,7 +120,9 @@ git rebase upstream/master
 1. Rebase!
 ```
 git checkout [your_branch_that_you_wanna_update]
-git rebase upstream-master
+git rebase origin-development
+ 
+(or master depending on what you're working on)
 ```
 
 2. Resolve conflicts: if there are conflicts you'll have to

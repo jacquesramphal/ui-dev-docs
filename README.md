@@ -3,15 +3,20 @@ Documentation covering workflow and resources for UI Developers.<br>
 This is an extension of the [Myplanet Developer Wiki].
 
 ### Introduction
-* [Intro Course: Basic HTML/CSS](https://github.com/myplanetdigital/dev-docs/blob/master/Practice%20Areas/Front-End/Basic%20HTML%20and%20CSS.md)
-* [Accessibility Training](https://www.udacity.com/course/web-accessibility--ud891)
-* [Vocabulary](vocab.md)
+[🧑‍🎓 Intro Course: Basic HTML/CSS](https://github.com/myplanetdigital/dev-docs/blob/master/Practice%20Areas/Front-End/Basic%20HTML%20and%20CSS.md)
+
+[🦮 Accessibility Training](https://www.udacity.com/course/web-accessibility--ud891)
+
+[🤷 Vocabulary](vocab.md)
+
 ### Getting Started
-* [Myplanet Workflow](workflow.md)
-* [Toolkit](tools.md)
-* [Troubleshooting](troubleshooting.md)
-### More
-* [Useful Links](usefulLinks.md)
+[⚙️ Getting Setup](setup.md)
+
+[🤝 Working on Myplanet sites](workflow.md)
+
+[🤦 Troubleshooting](troubleshooting.md)
+
+[🎉 Useful Links](usefulLinks.md)
 
 [Intro Course Notes]: https://github.com/myplanetdigital/dev-docs/blob/master/Practice%20Areas/Front-End/Udemy%20Web%20Dev%20Course/Course%20Outline.md
 [Myplanet Developer Wiki]: https://github.com/myplanetdigital/dev-docs/blob/master/Practice%20Areas/Front-End/Basic%20HTML%20and%20CSS.md

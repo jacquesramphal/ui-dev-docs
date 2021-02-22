@@ -2,8 +2,81 @@
 
 Every team is different but the following covers steps to access, edit and push updates to any repository.<br>Discuss process with your team before making any changes. 
 
-See [Myplanet Dev Docs: Git Tips](https://github.com/myplanetdigital/dev-docs/blob/master/wiki/GitTips.md) for more.
+See [Myplanet Dev Docs: Installation](https://github.com/myplanetdigital/myplanet.com#branching-strategy) for more.
+
 <br><br>
+
+<details>
+  <summary><strong>Getting Started</strong></summary>
+
+## 0. Run XCode
+
+- go to mac store and download/install xcode
+
+## Install Tools
+
+- See [Toolkit Guide](tools.md)
+
+## 1. Generate SSH Key (one-time step)
+An SSH key is an access credential in the SSH protocol. Its function is similar to that of user names and passwords, but the keys are primarily used for automated processes and for implementing single sign-on by system administrators and power users.
+
+[Tutorial](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
+Generate a key
+
+```$ ssh-keygen -t rsa```
+
+Navigate to ssh folder
+
+```cd ~/.ssh```
+
+View files
+
+```ls -la```
+
+Copy key to file
+
+```pbcopy < ~/.ssh/id_rsa.pub```
+
+## 2. Update Permissions
+
+Ensure you have access to push updates
+
+`sudo chown -R $USER /usr/local/lib/node_modules`
+
+---
+</details>  
+
+<details>
+  <summary><strong>Creating a Local build</strong></summary>
+  
+## 1. Setup environment
+
+Create a new file in your root folder of your fork and name it `.env`
+
+> In most cases, you require a `.env` file
+
+> These keys are stored in Contentful. Ask your team for permission to get the key.
+
+<br>
+
+## 2. Check scripts for instructions
+
+Check the root folder for a `package.json` file. This will include any notes and install details.
+
+## 3. Clone the myplanet repo
+
+#### Using Terminal
+
+`git clone git@github.com:myplanetdigital/myplanet.com.git` 
+
+#### Using GitKraken
+
+TBD
+
+
+---
+</details>
 
 <details>
   <summary><strong>Working on issues</strong></summary>
@@ -63,13 +136,13 @@ git checkout master
 <details>
   <summary><strong>Test locally</strong></summary>
 
-* Before running the build, check for new packages on upstream/master (from other dev tickets for eg.)
+* Before running the build, check for new packages on origin (from other dev tickets for eg.)
 
 `yarn install`
 
 * Remove shared cache files.
 
-`yarn cache clean`
+`yarn clean`
 
 * Build the site.
 
@@ -86,12 +159,12 @@ git checkout master
   <summary><strong>Updating Files</strong></summary>
 
 ## Make changes to desired file(s)
-* Open Project folder in text editor (Atom)
+* Open Project folder in text editor (VSCode)
 * Locate target file and make changes as needed
 
 Once changes have been made, run/refresh the build to test using the steps in the [previous section](workflow.md)
 
-## Add changes
+## Add changes (Terminal)
 Once you have modified existing files or added new files to the project, you can add them to your local repository, which we can do with the git add command. Let’s add the -A flag to add all changes that we have made:
 
 * Check the status of the working directory
@@ -102,7 +175,11 @@ Once you have modified existing files or added new files to the project, you can
 
 `git add -A`
 
+or 
+
 `git add .`
+
+or 
 
 `git add src`
 
@@ -151,9 +228,9 @@ git pull
 git push
 ```
 
-If pushing a new branch for the FIRST TIME, use:
+If pushing a new branch for the FIRST TIME (from terminal), use:
 
-`git push -u upstream 123--new-branch`
+`git push -u origin 123--new-branch`
 
 ---
 </details>
@@ -163,13 +240,13 @@ If pushing a new branch for the FIRST TIME, use:
 
 ## GitHub Pull Request Etiquette & Template
 
-Source: [Myplanet Dev Doc: PR Template](https://github.com/myplanetdigital/dev-docs/Practice Areas/Site Reliability & DevOps/GitHub Pull Request (PR) Template.md)
+Source: [Myplanet Dev Doc: PR Template]()
 
 1. Go to github branch master
-1. Find your branch
-1. Confirm COMMITS
-1. Add description
-1. Link related issues/PRs
+2. Find your branch
+3. Confirm COMMITS
+4. Add description
+5. Link related issues/PRs
 
 [Read more](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
