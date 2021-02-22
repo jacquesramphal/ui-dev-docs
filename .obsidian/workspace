@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "c8fdc010ec47b42b",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a26eace8031e14b",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "tools.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "204b8c689a47e135",
+    "type": "split",
+    "children": [
+      {
+        "id": "56a68075d3c58d19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "722ba8be61d190b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "60f335d904560393",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2029e043334a82e0",
+    "type": "split",
+    "children": [
+      {
+        "id": "fec295a6950f03b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b18e6f5d6923cc80",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tools.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "tools.md",
+    "troubleshooting.md",
+    "README.md",
+    "dsm-storybook.md"
+  ]
+}

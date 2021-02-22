@@ -1,6 +1,6 @@
 ## What is DSM?
 Design System Manager, or DSM is a feature built into the Craft plugin, that makes it easy to access, document, and evolve your design system from sketch
-A DSM library is a grouping of documentation and patterns for a given product or set of products. 
+A DSM library is a grouping of documentation and patterns for a given product or set of products.
 
 [See Example Library](https://dsmexample.invisionapp.com/dsm/in-vision-dsm/example-library)
 
@@ -88,7 +88,7 @@ Optionally, you can create CLI shortcuts to more easily publish and preview live
 ### Adding a DSM configuration file
 To obtain the code for the `.dsmrc` configuration file:
 
-1. Open your library in the DSM web view. 
+1. Open your library in the DSM web view.
 1. At the top right of the page, click the code icon **(</>)** and select **Live components setup**.
 1. Scroll to **Integration details** and, next to **DSM configuration file**, click **Open**.
 1. Copy the code and add it to a `.dsmrc` configuration file in your Storybook component library project.
@@ -96,7 +96,7 @@ To obtain the code for the `.dsmrc` configuration file:
 
 > You’ll notice that in the code, there is a placeholder for an authentication token. The section “Generating an authentication token” covers how to generate a token for your `.dsmrc` file.
 
-![adding-dsmrc-file](https://support.invisionapp.com/hc/article_attachments/360029788032/obtain-dsm-configuration-file.gif)
+<!-- ![adding-dsmrc-file](https://support.invisionapp.com/hc/article_attachments/360029788032/obtain-dsm-configuration-file.gif) -->
 
 ---
 ## 2. Adding a component container via the DSM Sketch tool
@@ -125,4 +125,3 @@ https://support.invisionapp.com/hc/en-us/articles/360028388192
 
 ---
 ## 5. Invision plugin installed on Jira
-
