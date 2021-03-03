@@ -1,57 +1,96 @@
+_Note: need to update to include ssh setup for tower and tool usage_
+
+
+
 # ⚙️ Getting Setup
 
 Initial setup can be complicated. Work with your team to ensure you are properly provisioned. 
 
-## 1. Install Dependencies
-
-### XCode
+## 1. Install XCode
 
 - [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
-- Install file
+- Once downloaded, install XCode
 
-### Packages
+## 2. Install Dependencies
 
-- [Yarn]()
-- [NPM]()
-- [N]()
-- [Gatsby (?)]()
+[`n`](https://github.com/tj/n) is used to to manage versions of `node` as it is an npm package that can be installed rather than [`nvm`](https://github.com/creationix/nvm) which requires you to run a shell script. You can use either if you want.
+The `.nvmrc` file is used by Netlify to set their environment to the specific version we want and we use the value inside this file to set the version locally using `n` in the `install.sh` script.
+
+### Using a script
+
+```
+./install.sh
+```
+
+If errors regarding `xcode` or `sharp` occur, try running the command a second time.
+
+### Manually
+
+NPM is distributed with Node.js- which means that when you download Node.js, you automatically get NPM installed on your computer.[Download Node.js and NPM](https://nodejs.org/en/)
+
+#### Check that you have node and npm installed
+
+To check if you have Node.js installed, run this command in your terminal:
+
+``` 
+node -v 
+```
+
+To confirm that you have npm installed you can run this command in your terminal:
+
+``` 
+npm -v 
+```
+
+#### Install Yarn
+
+``` 
+npm install --global yarn 
+```
+
+#### Install Dependencies
+
+```
+yarn install
+```
+
+If errors regarding `xcode` or `sharp` occur, try running the command a second time.
+
+Set `node` version
+
+```
+n $(< .nvmrc)
+```
+
+Set the environment variables
+
+```
+source .env
+```
+
+### Developing
+
+Run
+
+```
+yarn start
+```
+
+With the exception of all `gatsby-*.js` files in the root of the repo, all source files live in `src`.
+
+- The `env` config and webpack plugins are in `gatsby-config`.
+- The generation of pages is configured in `gatsby-node.js`.
+- The high level page html structure is defined in `gatsby-browser.js`
+
+
+Changes to most files will trigger livereload in the browser.
+
 
 ---
 
 ## 2. Configure Tools
 
-<details>
-  
-  <summary><strong>Git Tower</strong> https://code.visualstudio.com/download
-  
-</details>
-
-<details>
-  
-  <summary><strong>VSCode</strong> https://code.visualstudio.com/download</summary
-
----
-* [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag): Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text
-
-* [Auto Complete Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-complete-tag): Extension Packs to add close tag and rename paired tag automatically for HTML/XML
-
-* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag): Automatically rename paired HTML/XML tag, same as Visual Studio IDE does
-
-* [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2): A customizable extension for colorizing matching brackets
-
-* [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Integrates ESLint JavaScript into VS Code.
-
-* [GitHub PRs and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github): Pull Request and Issue Provider for GitHub
-
-* [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): Supercharge the Git capabilities built into Visual Studio Code — Visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more
-
-* [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
-
-* [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced): Markdown Preview Enhanced ported to vscode
-
-* [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): Code formatter using prettier
-
-</details>
+See [Tools](tools.md) for guidance on installation and configuration.
 
 ---
 
@@ -99,15 +138,17 @@ Create a new file in your root folder of your fork and name it `.env`
 
 ### Check scripts for instructions
 
-Check the root folder for a `package.json` file. This will include any notes and install details.
+- Check the root folder for a `package.json` file. This will include any notes and install details.
 
 ### Clone the myplanet repo
 
-See [Branching Strategy]() for more information on working with MASTER and DEVELOPMENT
+- See [Branching Strategy](https://github.com/myplanetdigital/myplanet.com#branching-strategy) for more information on working with MASTER and DEVELOPMENT
 
 #### Using Terminal
 
-`git clone git@github.com:myplanetdigital/myplanet.com.git` 
+```
+git clone git@github.com:myplanetdigital/myplanet.com.git
+``` 
 
 #### Using Tower
 

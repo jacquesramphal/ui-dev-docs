@@ -1,11 +1,10 @@
 # 🎉 Useful Links
 
 ### Important
-* [Intro](https://github.com/myplanetdigital/dev-docs/blob/master/Practice%20Areas/Front-End/Basic%20HTML%20and%20CSS.md)
+* [Myplanet dev-docs wiki](https://github.com/myplanetdigital/dev-docs/blob/master/Practice%20Areas/Front-End/Basic%20HTML%20and%20CSS.md)
 * [GitHub Pull Request Etiquette & Template]()
 * [Myplanet's Branching Strategy TBD]()
 * [Myplanet's PR/Issue Template]()
-* [Squashing Commits with Git GUI (GitKraken example)](https://www.youtube.com/watch?v=cr1N8VTRmfM)
 
 ### GitHub
 * [Renaming MASTER to MAIN](https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/)
@@ -14,6 +13,18 @@
 * [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 * [GitHub Actions: git-auto-commit](https://github.com/stefanzweifel/git-auto-commit-action)
 * [ORIGIN vs. UPSTREAM?](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github)
+
+### Javascript
+* [Javascript Fundamentals](https://dottedsquirrel.com/javascript/fundamentals-javascript/)
+* [Javascript Cheat Sheet](https://websitesetup.org/javascript-cheat-sheet/)
+* [Vue/React Structure Comparison](https://javascript.plainenglish.io/i-created-the-exact-same-app-in-react-and-vue-here-are-the-differences-e9a1ae8077fd)
+* [Vue vs. React 2021](https://www.monterail.com/blog/vue-vs-react-2021)
+
+### API
+* [Udemy Course](https://www.udemy.com/topic/API/?gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r7ZR39iOq-_scfB0pdWvnj_zfjqsglKwyaSYtp8OrrIKrC0gEDi4CEaAvyqEALw_wcB&matchtype=b&utm_campaign=Branded__Topic__CA&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_70254790274_._ad_335530916848_._kw_%2Bapi%20%2Budemy_._de_c_._dm__._pl__._ti_kwd-671845356914_._li_9000980_._pd__._)
+* [API Cheatsheet](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
+* [GraphQL](https://graphql.org/)
+* [Glossary of Terms](https://rapidapi.com/blog/api-glossary/)
 
 ### Accessibility
 * [WCAG Cheatsheets](https://www.webaxe.org/wcag-cheat-sheets/)
@@ -35,6 +46,7 @@
 
 ### Markdown
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Markdown Guide](https://about.gitlab.com/handbook/markdown-guide/)
 * [Extended Syntax](https://www.markdownguide.org/extended-syntax/)
 * [5 Markdown Tricks for GitHub](https://grantwinney.com/cool-markdown-tricks-for-github/)
 * [Collapsible Sections](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)

@@ -1,4 +1,4 @@
-# 🤦‍ Troubleshooting
+# 🤦‍Troubleshooting
 
 <details>
   <summary><strong>How to undo your last commit and re-push</strong></summary>
@@ -181,6 +181,24 @@ Just open a new tab by pressing Cmd-T , or a new window (using Cmd-N ).
 
 You're in the less program, which makes the output of git log scrollable.
 * Type `q` to exit this screen. Type `h` to get help.
+
+---
+</details>
+
+<details>
+ <summary><strong>Netlify Async build issue</strong></summary>
+
+### Error Message:
+
+  SyntaxError: Unexpected token operator «*», expected punc «(»
+
+### Potential cause
+
+Usage of async (asynchronus) call in code conflicts with gatsby version and Netlify. [Link to reason](https://github.com/gatsbyjs/gatsby/issues/3972)
+
+### Solution
+
+Change the async componentDidMount() method to a syncronous one with a then-able syntax inside. ^ Link above explains more
 
 ---
 </details>
