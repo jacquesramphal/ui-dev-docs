@@ -4,7 +4,7 @@
 * ⭐[Intro Course: Basic HTML/CSS](https://github.com/myplanetdigital/dev-docs/blob/master/Practice%20Areas/Front-End/Basic%20HTML%20and%20CSS.md)
 * [Vocabulary](vocab.md)
 * Contentful
-* ⭐[Sensible Defaults and Templates](https://github.com/myplanetdigital/dev-docs/blob/f6f0082724b14b48b6a3fb18830019055043b92a/Sensible%20Defaults.md)
+* [Sensible Defaults and Templates](https://github.com/myplanetdigital/dev-docs/blob/f6f0082724b14b48b6a3fb18830019055043b92a/Sensible%20Defaults.md)
 
 ### Spacing System
 
