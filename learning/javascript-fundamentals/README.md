@@ -14,6 +14,3 @@ See [this codepen](https://codepen.io/jacquesramphal/pen/jOVXKXe)
 - [JavaScript - WS3](https://www.w3schools.com/js/default.asp)
 - [JavaScript Reference](https://www.w3schools.com/jsref/)
 - [Query Selector](https://www.w3schools.com/jsref/met_element_queryselector.asp)
-
-See the [React](learning/react.md) page for more useful links
-
