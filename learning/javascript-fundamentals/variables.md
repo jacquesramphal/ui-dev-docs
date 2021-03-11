@@ -21,7 +21,7 @@ var name="Jacques";
 **How to call the variable?**
 
 ```jsx
-var name="Norbert";
+var name = "Norbert";
 console.log(name);
 ```
 
@@ -30,8 +30,8 @@ console.log(name);
 **Numbers**
 
 ```jsx
-var name="Norbert";
-var number="33";
+var name = "Norbert";
+var number = 33;
 
 console.log(number);
 ```
@@ -45,8 +45,8 @@ should spit out 33 in console
 Sum adds variables and displays result
 
 ```jsx
-var name="Norbert";
-var number="33";
+var name = "Norbert";
+var number = 33;
 var sum = name + number;
 
 console.log(sum);
@@ -57,8 +57,8 @@ console.log(sum);
 Instead of using console log you can use PROMPT which will summon a a prompt dialog box
 
 ```jsx
-var name="Norbert";
-var number="33";
+var name = "Norbert";
+var number = 33;
 var sum = name + number;
 
 // console.log(sum);
@@ -69,11 +69,11 @@ prompt(sum);
 
 **Prompt a string**
 
-Instead of using console log you can use PROMPT which will summon a a prompt dialog box
+Instead of using console log you can use PROMPT which will summon a a prompt dialog box.
 
 ```jsx
-var name="Norbert";
-var number="33";
+var name = "Norbert";
+var number = 33;
 var sum = name + number;
 
 // console.log(sum);
@@ -81,3 +81,26 @@ prompt('What is your name');
 ```
 
 ![](../images/jsprompt.png)
+
+
+**Prompt a string**
+
+If you type a name nothing will happen above. Must make the prompt a variable.
+
+```jsx
+var name = "Norbert";
+var number = 33;
+var sum = name + number;
+
+// console.log(sum);
+var name = prompt('What is your name');
+```
+
+Once you enter a name in the field, call the name varaible again in console
+
+```
+name
+"the name you entered"
+```
+
+The console will display the updated name 

@@ -5,7 +5,7 @@
 
 ## Javascript Data Types
 
-### Number
+### [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 
 - A number. Numbers don't have to have quotes around them
 
@@ -44,13 +44,38 @@ Greater than
 Less than
 
 # Examples
+
+Is 3 equal to 3?
+
 `3=3`
+
+Invalid. Must have 3 equal signs in js.
 
 `VM43:1 Uncaught SyntaxError: Invalid left-hand side in assignment`
 
+Is 3 equal to 3?
+
 `3===3`
 
+Result
+
 `true`
+
+Is 4 NOT equal to 3?
+
+`3!==3`
+
+Result
+
+`true`
+
+Is 3 NOT equal to 3?
+
+`3!==3`
+
+Result
+
+`false`
 
 `'Jacques'`
 
@@ -75,6 +100,8 @@ Less than
 ### Combining Strings 
 
 **Accessing individual Characters**
+
+In JS everything starts with 0
 
 `'Jacques' [0]`
 
