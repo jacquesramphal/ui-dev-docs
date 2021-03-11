@@ -1,7 +1,11 @@
 # Javascript Course Notes
 
+Udemy Course: https://www.udemy.com/course/web-development-a-practical-html-css-and-js-beginner-course/learn/lecture/16454994#overview
+
 JS + React
+
 https://www.w3schools.com/react/react_components.asp
+
 https://reactjs.org/docs/getting-started.html
 
 
