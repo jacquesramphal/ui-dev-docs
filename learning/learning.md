@@ -16,6 +16,7 @@
 
 ### Javascript
 
+* [Udemy Course: Fundamentals of Javascript](https://www.udemy.com/course/web-development-a-practical-html-css-and-js-beginner-course/learn/lecture/16454994#overview)
 * [14 Fundamental JavaScript Concepts Explained Simply](https://dottedsquirrel.com/javascript/fundamentals-javascript/)
 * [Javascript Reference](https://www.w3schools.com/jsref/)
 
