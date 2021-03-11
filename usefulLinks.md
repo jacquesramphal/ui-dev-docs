@@ -14,11 +14,20 @@
 * [GitHub Actions: git-auto-commit](https://github.com/stefanzweifel/git-auto-commit-action)
 * [ORIGIN vs. UPSTREAM?](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github)
 
+### Layout & Grid
+* [Styled System - Getting Started](https://styled-system.com/getting-started)
+* [CSS Grid Cheatsheet](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [Flexbox Cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Try Flexbox Froggy](https://flexboxfroggy.com/)
+* [Rebass Grid System](https://rebass-v2.now.sh/grid-system)
+* [Rebass Props](https://rebass-v2.now.sh/props)
+
 ### Javascript
 * [Udemy: Fundamentals Course](https://www.udemy.com/course/web-development-a-practical-html-css-and-js-beginner-course/learn/lecture/16229394#overview)
 * [JavaScript](https://www.w3schools.com/js/default.asp)
 	- [JavaScript Reference](https://www.w3schools.com/jsref/)
 	- [Query Selector](https://www.w3schools.com/jsref/met_element_queryselector.asp)
+	- [Javascript MATH](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
 * [Javascript Fundamentals](https://dottedsquirrel.com/javascript/fundamentals-javascript/)
 * [Javascript Cheat Sheet](https://websitesetup.org/javascript-cheat-sheet/)
 
@@ -35,27 +44,19 @@
 ### Accessibility
 * [WCAG Cheatsheets](https://www.webaxe.org/wcag-cheat-sheets/)
 
-### Journey Pattern Library (JPL/Duplo)
-* [Theme-UI](https://theme-ui.com/getting-started)
-* [Styled System](https://styled-system.com/)
-* [Storfront UI](https://www.storefrontui.io/)
-* [Tailwind CSS](https://tailwindcss.com/)
-* [Myplanet DSM](https://myplanet.invisionapp.com/dsm/myplanet)
-
-### Layout & Grid
-* [Styled System - Getting Started](https://styled-system.com/getting-started)
-* [CSS Grid Cheatsheet](https://css-tricks.com/snippets/css/complete-guide-grid/)
-* [Flexbox Cheatsheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Try Flexbox Froggy](https://flexboxfroggy.com/)
-* [Rebass Grid System](https://rebass-v2.now.sh/grid-system)
-* [Rebass Props](https://rebass-v2.now.sh/props)
-
 ### Markdown
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Markdown Guide](https://about.gitlab.com/handbook/markdown-guide/)
 * [Extended Syntax](https://www.markdownguide.org/extended-syntax/)
 * [5 Markdown Tricks for GitHub](https://grantwinney.com/cool-markdown-tricks-for-github/)
 * [Collapsible Sections](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
+
+### Journey Pattern Library (JPL/Duplo)
+* [Theme-UI](https://theme-ui.com/getting-started)
+* [Styled System](https://styled-system.com/)
+* [Storfront UI](https://www.storefrontui.io/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [Myplanet DSM](https://myplanet.invisionapp.com/dsm/myplanet)
 
 ### Vue.js + Storybook
 * [Installation Guide](https://www.learnstorybook.com/intro-to-storybook/vue/en/get-started/)
@@ -66,7 +67,6 @@
 * [Storybook + Figma Add-on](figma.com/resources/extensions-and-apis/storybook-figma-addon/)
 
 ### Articles
-* [Link Name](https://medium.com/me/list/queue)
 * [Writing Pull Requests](https://medium.com/@jerrylowm/the-power-of-well-written-pull-requests-8c345754adc2)
 * [CSS ABC](https://medium.com/@jerrylowm/alphabetize-your-css-properties-for-crying-out-loud-780eb1852153)
 
@@ -83,4 +83,3 @@
 * [What is HTML DOM?](https://www.w3schools.com/whatis/whatis_htmldom.asp)
 * [HTML Blocks](https://www.w3schools.com/html/html_blocks.asp)
 * [EMMET](https://emmet.io/)
-* [Javascript MATH](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
