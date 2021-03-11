@@ -13,25 +13,26 @@ https://reactjs.org/docs/getting-started.html
 See the [React](react.md) page for more useful links
 
 
-# Tips
+## JS Primitives
+
+### Tips
 - Always hit 'shift' + 'enter' for new lines
-- 
 
-# Javascript Data Types
+## Javascript Data Types
 
-## Number
+### Number
 
 - A number. Numbers don't have to have quotes around them
 
-## String
+### String
 
 - A sequence of text know as a string. To signify that the value is a string, you must enclose it in quote marks (double or single)
 
-## Boolean
+### Boolean
 
 - A True/False value. The words TRUE or FALSE are special keywords.They don't need quotes
 
-## JS Comparisons
+### JS Comparisons
 
 ### !==
 
