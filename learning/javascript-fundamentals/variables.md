@@ -22,10 +22,10 @@ var name="Jacques";
 
 ```jsx
 var name="Norbert";
-console.log(name)
+console.log(name);
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d3a21b2-4d14-4a48-a8eb-b5437eab3fdd/Screen_Shot_2021-03-11_at_9.15.18_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d3a21b2-4d14-4a48-a8eb-b5437eab3fdd/Screen_Shot_2021-03-11_at_9.15.18_AM.png)
+![](../images/call.png)
 
 **Numbers**
 
@@ -33,12 +33,12 @@ console.log(name)
 var name="Norbert";
 var number="33";
 
-console.log(number)
+console.log(number);
 ```
 
 should spit out 33 in console
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/291e6303-7c7a-4124-b825-d191f3264b42/Screen_Shot_2021-03-11_at_9.20.13_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/291e6303-7c7a-4124-b825-d191f3264b42/Screen_Shot_2021-03-11_at_9.20.13_AM.png)
+![](../images/number.png)
 
 **Using a string as a number**
 
@@ -49,7 +49,7 @@ var name="Norbert";
 var number="33";
 var sum = name + number;
 
-console.log(sum)
+console.log(sum);
 ```
 
 **Console vs Prompt**
@@ -61,11 +61,11 @@ var name="Norbert";
 var number="33";
 var sum = name + number;
 
-// console.log(sum)
-prompt(sum)
+// console.log(sum);
+prompt(sum);
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8e9ad2d3-2b73-4561-8f04-596fa07461c9/Screen_Shot_2021-03-11_at_9.18.48_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8e9ad2d3-2b73-4561-8f04-596fa07461c9/Screen_Shot_2021-03-11_at_9.18.48_AM.png)
+![](../images/jsprompt1.png)
 
 **Prompt a string**
 
@@ -76,8 +76,8 @@ var name="Norbert";
 var number="33";
 var sum = name + number;
 
-// console.log(sum)
-prompt('What is your name')
+// console.log(sum);
+prompt('What is your name');
 ```
 
-![jsprompt](images/jsprompt.png)
+![](../images/jsprompt.png)

@@ -1,14 +1,19 @@
-# Javascript Course Notes (RAW)
+# Javascript Fundamentals
 
-- [Udemy Course: Fundamentals of Javascript](https://www.udemy.com/course/web-development-a-practical-html-css-and-js-beginner-course/learn/lecture/16454994#overview) 
-- [JavaScript](https://www.w3schools.com/js/default.asp)
-	- [JavaScript Reference](https://www.w3schools.com/jsref/)
-	- [Query Selector](https://www.w3schools.com/jsref/met_element_queryselector.asp)
+## Udemy Course: [Fundamentals of Javascript](https://www.udemy.com/course/web-development-a-practical-html-css-and-js-beginner-course/learn/lecture/16454994#overview) 
 
-## JS + React
+#### Course Notes (RAW)
+1. [Primitives](primitives.md)
+2. [Variables](variables.md)
 
-https://www.w3schools.com/react/react_components.asp
-https://reactjs.org/docs/getting-started.html
+
+#### Useful Links
+
+- [JavaScript - WS3](https://www.w3schools.com/js/default.asp)
+- [JavaScript Reference](https://www.w3schools.com/jsref/)
+- [Query Selector](https://www.w3schools.com/jsref/met_element_queryselector.asp)
+- [React - Getting Started](https://reactjs.org/docs/getting-started.html)
+- [React Components](https://www.w3schools.com/react/react_components.asp)
 
 See the [React](react.md) page for more useful links
 
