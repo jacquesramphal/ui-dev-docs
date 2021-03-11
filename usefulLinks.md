@@ -22,7 +22,7 @@
 * [Javascript Fundamentals](https://dottedsquirrel.com/javascript/fundamentals-javascript/)
 * [Javascript Cheat Sheet](https://websitesetup.org/javascript-cheat-sheet/)
 
-## Frameworks: React & Vue
+### JS Frameworks: React & Vue
 * [Vue/React Structure Comparison](https://javascript.plainenglish.io/i-created-the-exact-same-app-in-react-and-vue-here-are-the-differences-e9a1ae8077fd)
 * [Vue vs. React 2021](https://www.monterail.com/blog/vue-vs-react-2021)
 
