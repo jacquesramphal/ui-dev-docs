@@ -15,6 +15,10 @@
 * [ORIGIN vs. UPSTREAM?](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github)
 
 ### Javascript
+* [Udemy: Fundamentals Course](https://www.udemy.com/course/web-development-a-practical-html-css-and-js-beginner-course/learn/lecture/16229394#overview)
+* [JavaScript](https://www.w3schools.com/js/default.asp)
+	- [JavaScript Reference](https://www.w3schools.com/jsref/)
+	- [Query Selector](https://www.w3schools.com/jsref/met_element_queryselector.asp)
 * [Javascript Fundamentals](https://dottedsquirrel.com/javascript/fundamentals-javascript/)
 * [Javascript Cheat Sheet](https://websitesetup.org/javascript-cheat-sheet/)
 * [Vue/React Structure Comparison](https://javascript.plainenglish.io/i-created-the-exact-same-app-in-react-and-vue-here-are-the-differences-e9a1ae8077fd)
