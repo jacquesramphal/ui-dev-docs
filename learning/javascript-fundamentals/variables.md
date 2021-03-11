@@ -1,5 +1,7 @@
 # 2. JS Variables
 
+See [this codepen](https://codepen.io/jacquesramphal/pen/jOVXKXe)
+
 - store information
 - hold different types:
     - numbers, strings, booleans, undefined, symbols, objects
