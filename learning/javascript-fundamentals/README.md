@@ -12,8 +12,6 @@
 - [JavaScript - WS3](https://www.w3schools.com/js/default.asp)
 - [JavaScript Reference](https://www.w3schools.com/jsref/)
 - [Query Selector](https://www.w3schools.com/jsref/met_element_queryselector.asp)
-- [React - Getting Started](https://reactjs.org/docs/getting-started.html)
-- [React Components](https://www.w3schools.com/react/react_components.asp)
 
 See the [React](react.md) page for more useful links
 
