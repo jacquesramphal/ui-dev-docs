@@ -15,12 +15,12 @@
 
 ### Javascript
 
-* ⭐[Javascript Fundamentals](javascript-fundamentals/README.md)
+* [Javascript Basics](javascript-basics/README.md)
   
 ### Key React Concepts
 
 * [React](react.md) 
-* ⭐[5 Must Know React Methods](https://raymondosy.medium.com/5-must-know-array-methods-in-react-da531a02b0ef)
+* [5 Must Know React Methods](https://raymondosy.medium.com/5-must-know-array-methods-in-react-da531a02b0ef)
 
 ### Contentful
 
