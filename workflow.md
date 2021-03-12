@@ -1,5 +1,7 @@
 # 🤝 Workflow
 
+Note: The following documents steps using terminal. See [tools](tools.md) for more information on GUIs.
+
 Every team is different but the following covers steps to access, edit and push updates to any repository.<br>Discuss process with your team before making any changes. 
 
 See [Myplanet Dev Docs: Git Tips](https://github.com/myplanetdigital/dev-docs/blob/master/wiki/GitTips.md) for more.

@@ -1,5 +1,7 @@
 # 🤷 Vocabulary
 
+See [MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary)
+
 | Term | Description |  |
 | :- | :- | :- |
 | UI Dev, Des/Dev, FEDes, etc | Designer/Developer with a focus on User Interface and visual polish | [Brad Frost: FEDesign](https://bradfrost.com/blog/post/frontend-design/) |

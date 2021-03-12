@@ -1,18 +1,19 @@
 # 🎉 Useful Links
 
-### Important
+### General
 * [Myplanet dev-docs wiki](https://github.com/myplanetdigital/dev-docs/blob/master/Practice%20Areas/Front-End/Basic%20HTML%20and%20CSS.md)
 * [GitHub Pull Request Etiquette & Template]()
 * [Myplanet's Branching Strategy TBD]()
-* [Myplanet's PR/Issue Template]()
+* [Myplanet's PR/Issue Template TBD]()
+* [MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary)
 
 ### GitHub
-* [Renaming MASTER to MAIN](https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/)
 * [GitHub Docs: Quickstart](https://docs.github.com/en/github/getting-started-with-github/quickstart)
 * [GitHub for Beginners](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
 * [Git Cheat Sheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
 * [GitHub Actions: git-auto-commit](https://github.com/stefanzweifel/git-auto-commit-action)
 * [ORIGIN vs. UPSTREAM?](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github)
+* [Renaming MASTER to MAIN](https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/)
 
 ### Layout & Grid
 * [Styled System - Getting Started](https://styled-system.com/getting-started)
@@ -24,10 +25,11 @@
 
 ### Javascript
 * [Udemy: Fundamentals Course](https://www.udemy.com/course/web-development-a-practical-html-css-and-js-beginner-course/learn/lecture/16229394#overview)
-* [JavaScript](https://www.w3schools.com/js/default.asp)
+* [MDN Web Docs: JS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#what_is_javascript)
+* [MDN Web Docs: Javascript MATH](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
+* [W3C School: JavaScript](https://www.w3schools.com/js/default.asp)
 	- [JavaScript Reference](https://www.w3schools.com/jsref/)
 	- [Query Selector](https://www.w3schools.com/jsref/met_element_queryselector.asp)
-	- [Javascript MATH](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil)
 * [Javascript Fundamentals](https://dottedsquirrel.com/javascript/fundamentals-javascript/)
 * [Javascript Cheat Sheet](https://websitesetup.org/javascript-cheat-sheet/)
 
@@ -51,7 +53,7 @@
 * [5 Markdown Tricks for GitHub](https://grantwinney.com/cool-markdown-tricks-for-github/)
 * [Collapsible Sections](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
 
-### Journey Pattern Library (JPL/Duplo)
+### Styling
 * [Theme-UI](https://theme-ui.com/getting-started)
 * [Styled System](https://styled-system.com/)
 * [Storfront UI](https://www.storefrontui.io/)
