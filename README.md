@@ -2,7 +2,7 @@
 
 Documentation covering workflow and resources for Composable Designers.<br>
 
-* [Composable (Design) Docs](composable-design-docs.md)
+* [Composable (Design) Docs](composable-design/composable-design-docs.md)
  
 Documentation covering workflow and resources for UI Developers working on [myplanet.com](https://myplanet.com)<br>
 This is an extension of the [Myplanet Developer Wiki].
